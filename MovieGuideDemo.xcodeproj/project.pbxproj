@@ -15,6 +15,9 @@
 		449B3E0B1EE6AFDB00661FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449B3E091EE6AFDB00661FA7 /* LaunchScreen.storyboard */; };
 		449B3E161EE6AFDB00661FA7 /* MovieGuideDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3E151EE6AFDB00661FA7 /* MovieGuideDemoTests.m */; };
 		449B3E211EE6AFDB00661FA7 /* MovieGuideDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3E201EE6AFDB00661FA7 /* MovieGuideDemoUITests.m */; };
+		449B3E311EE6B03A00661FA7 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 449B3E2F1EE6B03A00661FA7 /* 1.mp4 */; };
+		449B3E321EE6B03A00661FA7 /* keep6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 449B3E301EE6B03A00661FA7 /* keep6@2x.png */; };
+		449B3E351EE6B16D00661FA7 /* MovieGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449B3E341EE6B16D00661FA7 /* MovieGuideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		449B3E1C1EE6AFDB00661FA7 /* MovieGuideDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieGuideDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449B3E201EE6AFDB00661FA7 /* MovieGuideDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieGuideDemoUITests.m; sourceTree = "<group>"; };
 		449B3E221EE6AFDB00661FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449B3E2F1EE6B03A00661FA7 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		449B3E301EE6B03A00661FA7 /* keep6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keep6@2x.png"; sourceTree = "<group>"; };
+		449B3E331EE6B16D00661FA7 /* MovieGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieGuideViewController.h; sourceTree = "<group>"; };
+		449B3E341EE6B16D00661FA7 /* MovieGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieGuideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		449B3DFA1EE6AFDB00661FA7 /* MovieGuideDemo */ = {
 			isa = PBXGroup;
 			children = (
+				449B3E2E1EE6B03A00661FA7 /* MovieGuide */,
 				449B3DFE1EE6AFDB00661FA7 /* AppDelegate.h */,
 				449B3DFF1EE6AFDB00661FA7 /* AppDelegate.m */,
 				449B3E011EE6AFDB00661FA7 /* ViewController.h */,
@@ -138,6 +146,17 @@
 				449B3E221EE6AFDB00661FA7 /* Info.plist */,
 			);
 			path = MovieGuideDemoUITests;
+			sourceTree = "<group>";
+		};
+		449B3E2E1EE6B03A00661FA7 /* MovieGuide */ = {
+			isa = PBXGroup;
+			children = (
+				449B3E2F1EE6B03A00661FA7 /* 1.mp4 */,
+				449B3E301EE6B03A00661FA7 /* keep6@2x.png */,
+				449B3E331EE6B16D00661FA7 /* MovieGuideViewController.h */,
+				449B3E341EE6B16D00661FA7 /* MovieGuideViewController.m */,
+			);
+			path = MovieGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				449B3E0B1EE6AFDB00661FA7 /* LaunchScreen.storyboard in Resources */,
+				449B3E321EE6B03A00661FA7 /* keep6@2x.png in Resources */,
+				449B3E311EE6B03A00661FA7 /* 1.mp4 in Resources */,
 				449B3E081EE6AFDB00661FA7 /* Assets.xcassets in Resources */,
 				449B3E061EE6AFDB00661FA7 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +296,7 @@
 			files = (
 				449B3E031EE6AFDB00661FA7 /* ViewController.m in Sources */,
 				449B3E001EE6AFDB00661FA7 /* AppDelegate.m in Sources */,
+				449B3E351EE6B16D00661FA7 /* MovieGuideViewController.m in Sources */,
 				449B3DFD1EE6AFDB00661FA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
